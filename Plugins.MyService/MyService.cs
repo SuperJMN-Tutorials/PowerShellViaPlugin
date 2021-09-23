@@ -1,5 +1,6 @@
 ﻿using System.Management.Automation;
 using System.Threading.Tasks;
+using Plugins.Core;
 
 namespace Plugins.MyService
 {
@@ -11,7 +12,12 @@ namespace Plugins.MyService
             ps.AddScript("Get-Disk");
             var result = await ps.InvokeAsync();
 
-            return result.ToString();
+            if (ps.HadErrors)
+            {
+                return string.Join(";", ps.Streams.Error);
+            }
+
+            return "The call succeeded!";
         }
     }
 }

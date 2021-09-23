@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App", "ConsoleApp2\App.csproj", "{A270B1AD-45B8-46EC-8DDB-BE76977947BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PluginsSample", "PluginsSample\PluginsSample.csproj", "{A270B1AD-45B8-46EC-8DDB-BE76977947BC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plugins.MyService", "ClassLibrary1\Plugins.MyService.csproj", "{F464D059-20F9-4577-9F70-1A2FE460B380}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plugins.MyService", "Plugins.MyService\Plugins.MyService.csproj", "{F464D059-20F9-4577-9F70-1A2FE460B380}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plugins", "Plugins\Plugins.csproj", "{E7813292-A62A-4719-8DFA-194FE3D7C881}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plugins.Core", "Plugins.Core\Plugins.Core.csproj", "{E7813292-A62A-4719-8DFA-194FE3D7C881}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

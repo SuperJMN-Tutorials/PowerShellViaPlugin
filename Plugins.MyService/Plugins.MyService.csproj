@@ -10,10 +10,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\Plugins\Plugins.csproj">
-			<Private>false</Private>
-			<ExcludeAssets>runtime</ExcludeAssets>
-		</ProjectReference>
+	  <ProjectReference Include="..\Plugins.Core\Plugins.Core.csproj">
+		  <Private>false</Private>
+		  <ExcludeAssets>runtime</ExcludeAssets>
+	  </ProjectReference>
 	</ItemGroup>
 
 </Project>

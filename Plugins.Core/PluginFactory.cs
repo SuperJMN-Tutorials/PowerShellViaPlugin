@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 
-namespace Plugins
+namespace Plugins.Core
 {
     public class PluginFactory
     {

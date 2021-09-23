@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace Plugins
+namespace Plugins.Core
 {
     public interface IPlugin
     {
